@@ -32,6 +32,8 @@
 
   - There is an asymmetry between the seasonality of the number of arriving flights and delay minutes. For example, June and July are the peak months for severe thunderstorms. Therefore, delay minutes hit the peak during the period, though flight traffic does not peak until August.
 
+![alt text](https://github.com/Doravado/usa_airline_delay_cause/blob/main/image/delay%20minutes%20over%20years.png)
+
 ## Delay Cause Analysis
 - Plotted each delay cause over the whole period and analyzed delay cause distribution.
 
@@ -44,14 +46,20 @@
 
   - Southwest Airlines' percentage of its 'late_aircraft_delay' is much higher than the other three and the benchmark. According to my search, Southwest Airlines provides high-frequency flights for customers because of its supply chain strategy.
 
+![alt text](https://github.com/Doravado/usa_airline_delay_cause/blob/main/image/delay%20cause%20over%20years.png)
+
 ## Geographic Information Analysis
 - Created animated choropleth maps to show delay minutes and the number of arriving flights over the years.
 
 - Key takeaways:
   - California and Texas rank at the top regarding the number of arriving flights and delay minutes due to their large population. Florida is climbing to a higher rank as more people want to go to warm-weather destinations.
 
+![alt text](https://github.com/Doravado/usa_airline_delay_cause/blob/main/image/animated_choropleth_map.gif)
+
 ## Austin Airport Performance Forecast
 - Used Holt-Winters model (based on trend and seasonality) and forecasted Austin airport performance (number of arriving flights and delay minutes) in 2023.
+
+![alt text](https://github.com/Doravado/usa_airline_delay_cause/blob/main/image/delay%20minutes%20forecast.png)
 
 - Created and deployed the performance [report](https://austin-ariport-delay-cause-dashboard.onrender.com) (click to see the dashboard) via plotly.dash, including each airline's delay cause at Austin Airport since 2003.
 
