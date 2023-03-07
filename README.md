@@ -56,7 +56,7 @@
 - Key takeaways:
   - California and Texas rank at the top regarding the number of arriving flights and delay minutes due to their large population. Florida is climbing to a higher rank as more people want to go to warm-weather destinations.
 
-![alt text](https://github.com/Doravado/usa_airline_delay_cause/blob/main/image/animated_choropleth_map.gif)
+![alt text](https://github.com/Doravado/usa_airline_delay_cause/blob/main/image/animated_map.gif)
 
 ## Austin Airport Performance Forecast
 - Used Holt-Winters model (based on trend and seasonality) and forecasted Austin airport performance (number of arriving flights and delay minutes) in 2023.
