@@ -65,4 +65,4 @@
 
 - Created and deployed the performance [report](https://austin-ariport-delay-cause-dashboard.onrender.com) (click to see the dashboard) via plotly.dash, including each airline's delay cause at Austin Airport since 2003.
 
-## Oct 2022 Presentation
+![alt text](https://github.com/Doravado/usa_airline_delay_cause/blob/main/image/dashboard.png)
