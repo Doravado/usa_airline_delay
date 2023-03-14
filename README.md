@@ -46,12 +46,10 @@
   - 'Late_aircraft_delay' generate the most delay minutes every month.
 
   - Delay minutes hit the peak during Jun and Jul, though flight traffic does not reach the highest point until August. In June, both 'carrier_delay' and 'weather_delay' percentage increase. According to meteorological records, June and July, in particular, are the peak months for severe thunderstorms with high winds.
-
-  - Delay cause of American Airlines and United Airlines are close to the benchmark.
-
-  - Due to old airplanes, Delta Airlines' percentage of its 'carrier_delay' is much higher than the benchmark.  
-
-  - Southwest Airlines' percentage of its 'late_aircraft_delay' is much higher than the other three and the benchmark. According to my search, Southwest Airlines provides high-frequency flights for customers because of its supply chain strategy.
+  
+  -  In August, the percentages of 'carrier_delay' and 'nas_delay' jump up, which may be attributed to high flights this month.
+  
+  -  Delay cause of American Airlines and United Airlines are close to the benchmark. Due to old airplanes, Delta Airlines' percentage of its 'carrier_delay' is much higher than the benchmark. Southwest Airlines' percentage of its 'late_aircraft_delay' is much higher than the other three and the benchmark. According to my search, Southwest Airlines provides high-frequency flights for customers because of its supply chain strategy.
 
 ![alt text](https://github.com/Doravado/usa_airline_delay_cause/blob/main/image/delay%20cause%20over%20years.png)
 
